@@ -1,0 +1,1073 @@
+/*** Add your styles here **/
+/*
+
+font-family: 'Bad Script', cursive;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+html, body {
+	height: 100%;
+}
+
+body {
+	padding-top: 0px;
+	background-color: #ffffff;
+}
+/*
+h1, h2, h3, h4, h5 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+}
+
+p, ul, li {
+	font-family: 'Pompiere', cursive, Helvetica, Arial, sans-serif;
+	color: #1e0b0f;
+	font-size: 1.4rem;
+	line-height: 1.9;
+}
+*/
+.zoom {
+    /* transform: scale(2); */
+}
+
+.borderblack {
+	border: 1px solid black;
+}
+.borderred {
+	border: 1px solid red;
+}
+.bordergreen {
+	border: 1px solid green;
+}
+.borderwhite {
+	border: 1px solid white;
+}
+
+span.sd-ul-italic {
+	text-decoration: underline;
+}
+
+/** Navigation **/
+
+div.sd-navigation {
+	/* background-image: url(); */
+}
+
+div.dropdown-menu {
+	font-size: .85em;
+}
+
+div.sd-nav-wrap {
+	background-color: #ffffff;
+}
+div.sd-heading-tagline {
+	font-family: 'Bad Script', cursive;
+}
+
+.navbar {
+	background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-toggler-icon .custom-toggler .navbar-toggler {
+    border-color: rgb(30,11,15);
+}
+
+/*
+.navbar-light .navbar-toggler-icon .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://ww…p='round' stroke='rgba(30,11,15, 0.5)' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+*/
+
+nav.sd-main-nav .navbar-nav .nav-link {
+	font-size: 1.0rem;
+	line-height: 1.0rem;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	color: rgba(68,68,68,.9);
+}
+/*
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+	color: rgba(68,68,68,.9); /* #2eb0ee 
+}
+*/
+
+a.sd-before::before {
+	content:"";
+	display:block;
+  	height: 40px; /* fixed header height*/
+  	margin: -40px 0 0; /* negative fixed header height */
+}
+
+span.readmore a {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+	word-spacing: 2px;
+}
+
+div.sd-copyright {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .85em;
+	font-weight: 300;
+	line-height: 1.4em;
+}
+
+.thick-line-fade {
+	height: 12px;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 5%, rgba(198,198,198,1) 50%, rgba(198,198,198,1) 51%, rgba(255,255,255,1) 95%);
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 5%,rgba(198,198,198,1) 50%,rgba(198,198,198,1) 51%,rgba(255,255,255,1) 95%);
+	background: linear-gradient(to right, rgba(255,255,255,1) 5%,rgba(198,198,198,1) 50%,rgba(198,198,198,1) 51%,rgba(255,255,255,1) 95%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+
+}
+
+/***************************************************************************/
+/*                                  home                                   */
+/***************************************************************************/
+
+div.sd-header {
+    border: 0px solid black;
+}
+
+/** banner **/
+
+div.sd-banner {
+	height: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-image: linear-gradient(rgba(5, 5, 5, 0.45),rgba(5, 5, 5, 0.45)), 
+						url(../img/home-page-photo_d800.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	border: 5px solid black;
+}
+
+h1.sd-banner-heading {
+	font-size: 5.6em;
+	line-height: 1.2em;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	color: #ffffff; 
+}
+
+div.sd-banner-description {
+	font-size: 1.0em;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	color: #ffffff; 
+}
+
+div.sd-banner-description-heading {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff; 
+}
+
+/** Courses home page  **/
+
+div.sd-courses-border {
+	border: 5px solid #8360bb;
+}
+
+div.sd-courses-wrapper {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+}
+
+div.sd-courses-wrapper h5 {
+	font-size: 1.4em;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+}
+
+div.sd-courses-wrapper a {
+	text-decoration: underline;
+}
+
+div.sd-about-us {
+	border: 5px solid #5b4978;
+	background-color: #98949f;
+	position: relative;
+}
+
+div.sd-about-us img {
+	width: 100%;
+}
+
+.sd-about-us-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div.sd-stone-message {
+	margin-bottom: 100px;
+}
+
+div.sd-stone-massage {
+	border: 5px solid #2eb0ee;
+	background-color: #ffffff;
+	position: relative;
+}
+
+div.sd-stone-massage-wrapper {
+	border: 1px solid #dbdbdb;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 0;
+}
+
+div>button.btn-sharp {
+	border-radius:0;
+}
+
+button.btn-primary {
+    background: #2eb0ee;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 3em;
+}
+
+div.circle-wrap-outer {
+	padding-left: 50%;
+	position: relative;
+	width: 100%;
+}
+
+div.circle-wrap-inner {
+	position: absolute;
+	margin: 0 auto;
+	margin-left: -1.5em;
+}
+
+div.circle {
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	font-size: 1em;
+	color: #ffffff;
+	line-height: 2.5em;
+	text-align: center;
+	background: #2eb0ee;
+	border: solid 4px #fff;
+	margin-top: -20px;
+	z-index: 10;
+}
+
+div.sd-should-offer {
+	border: 5px solid #3d5fa1;
+	background-color: rgba(11, 67, 238, 0.15);
+	position: relative;
+	color: #0f0f0f;
+}
+
+div.sd-should-offer h1, div.sd-message-clients h1, 
+div.sd-benefits-therapist h1, div.sd-benefits-client h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-should-offer h3 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+div.sd-should-offer-outer {
+	padding: 30px;
+}
+
+div.sd-should-offer-inner {
+	margin: 0 auto;
+}
+
+div.sd-should-offer ul {
+	list-style-type: none;
+	padding-left: 1em;
+	text-indent: -1em;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	line-height: 1.7em;
+}
+
+div.sd-should-offer ul li[class*="sd-li-question"]::before {
+	content: 'Q. ';
+	font-weight: 700;
+}
+
+div.sd-should-offer ul li[class*="sd-li-answer"]::before {
+	content: 'A. ';
+	font-weight: 700;
+}
+
+div.sd-message-clients {
+	border: 5px solid #07af0B;
+	background-color: rgba(143, 242, 130, 0.12);
+	position: relative;
+	color: #444444;
+}
+
+div.sd-message-clients p, div.sd-benefits-therapist ul, 
+div.sd-benefits-client ul, div.sd-benefits-client p {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	line-height: 1.7em;
+}
+
+div.sd-message-clients h3 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+div.sd-benefits-therapist {
+	border: 5px solid #f0cb49;
+	background-color: rgba(246, 240, 37, 0.12);
+	position: relative;
+	color: #444444;
+}
+
+
+div.sd-benefits-client {
+	border: 5px solid #6a1b1b;
+	background-color: rgba(255, 114, 2, 0.24);
+	position: relative;
+	color: #444444;
+}
+
+div.sd-mary-nelson-message {
+	border: 5px solid #297599;
+	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+	color: #444444;
+}
+
+div.sd-mary-nelson-message>div>div>div>picture>img {
+	border: dotted 1px #000000;
+	margin: 0 auto;
+}
+
+div.sd-mary-nelson-message h3  {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	line-height: 1.4em;
+	text-align: center;
+	color: #106e7c;
+}
+
+div.sd-mary-nelson-message p {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 0.99em;
+	line-height: 1.9em;
+	color: rgba(45,148,171,.70);
+}
+/* #106e7c  #2d94ab */
+
+div.sd-bottom-banner {
+	height: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-image: url(../img/sacred-symbol-1450x956.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+
+div.sd-footer {
+	background-color: #333333;
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+}
+
+/***************************************************************************/
+/*  List pages common: instructors, courses                                */
+/***************************************************************************/
+div.sd-list-pages {
+	color: #444444;
+	position: relative;
+	border: 5px solid #535b7c;
+}
+
+div.sd-list-pages h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-list-pages h3 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-list-pages h4 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+	height: 4em;
+}
+
+div.sd-list-pages p {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 400;
+	line-height: 1.4em;
+	word-spacing: .45em;
+}
+
+div.sd-list-pages ul {
+	list-style: none;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/***************************************************************************/
+/*                              instructors                                */
+/***************************************************************************/
+
+div.sd-instructors {
+	border: 5px solid #8360bb;
+	background-color: rgba(244, 241, 249, .99);
+	position: relative;
+	color: #444444;
+}
+
+div.sd-instructors h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div.sd-instructors h5, div.sd-instructors p {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 400;
+	line-height: 1.4em;
+	color: #444444;
+	word-spacing: .5em;
+}
+
+div.sd-instructors h5 {
+	text-align: center;
+}
+
+div.sd-instructors h3 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+div.sd-us-instructors ul, div.sd-other-country-instructors ul {
+	list-style-type: none;
+	position: relative;
+	color: #444444;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #444444;
+}
+
+div.sd-us-instructors ul li a, div.sd-other-country-instructors ul li a, div.sd-top a {
+	list-style-type: none;
+	position: relative;
+	color: #444444;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	line-height: 2em;
+	color: #444444;
+	text-decoration: underline;
+}
+
+div.sd-us-instructors ul li a:hover, div.sd-other-country-instructors ul li a:hover, div.sd-top a {
+	font-size: 1.12em;
+}
+
+div.sd-us-instructors h3, div.sd-other-country-instructors h3 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div.sd-us-instructors {
+	border: 5px solid #89d2f5;
+}
+
+div.sd-other-country-instructors {
+	border: 5px solid #b9a6d9;
+}
+
+div.sd-instructor {
+	color: #444444;
+}
+
+div.sd-instructor h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-instructor h3 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-instructor h4 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+	height: 4em;
+}
+
+div.sd-instructor ul {
+	list-style: none;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.sd-instructor-description p {
+	padding-bottom: 2em;
+}
+
+div.sd-instructor-contact p {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .8em;
+	font-weight: 600;
+	word-spacing: .05em;
+	color: #2d2d2d;
+}
+
+div.sd-instructor-contact h5 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-weight: 700;
+	font-size: 1.0em;
+	line-height: .5em;
+	text-transform: uppercase;
+	color: #2d2d2d;
+}
+
+div.sd-instructor-sub-descript {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+}
+
+/* instructor list */
+
+
+/***************************************************************************/
+/*                                courses                                  */
+/***************************************************************************/
+div.sd-courses-banner {
+	height: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 5px solid rgb(81, 53, 125);
+}
+
+div.sd-courses-banner {
+	padding-top: 100px;
+	height: 100%;
+}
+
+div.sd-courses-banner h1 {
+	font-size: 4.5em;
+	line-height: 1.2em;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+div.sd-courses-banner div {
+	font-size: 1.0em;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	color: #ffffff; 
+	padding-top: 2em;
+}
+
+div.sd-banner-description-heading {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff; 
+}
+
+div.sd-courses {
+	border: 5px solid #8360bb;
+	background-color: rgba(255, 255, 255, .1);
+	position: relative;
+	color: #444444;
+}
+
+div.sd-courses h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+div.sd-courses-sub-descript h5 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+div.sd-courses-sub-descript {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+}
+
+div.sd-course h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-course h3 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: 1.2em;
+	font-weight: 700;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-course h4 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+	height: 4em;
+}
+
+div.sd-course ul {
+	list-style: none;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.6em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.sd-course-description p {
+	padding-bottom: 2em;
+}
+
+
+/* course list */
+
+div.sd-course-list {
+	color: #444444;
+	position: relative;
+	border: 5px solid #535b7c;
+}
+
+div.sd-course-list h1 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-course-list h3 {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.sd-course-list h4 {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 700;
+	line-height: 1.4em;
+	text-align: center;
+	height: 4em;
+}
+
+div.sd-course-list p {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-size: .9em;
+	font-weight: 400;
+	line-height: 1.4em;
+	word-spacing: .45em;
+}
+
+div.sd-course-list p span {
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+}
+
+div.sd-course-list ul {
+	list-style: none;
+	font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.7em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+/******************* @Media ************************/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	
+	div.sd-courses-wrapper1 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	div.sd-courses-wrapper {
+		font-size: 0.9em;
+		line-height: 1.5em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+	
+	div.sd-courses-wrapper h5 {
+		font-size: 1.2em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+	
+	/***********************************************************
+	* instructors
+	***********************************************************/
+	
+
+	/***********************************************************
+	* courses
+	***********************************************************/
+	div.sd-courses-banner div {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	div.sd-courses h1 {
+		font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+		font-size: 3em;
+		line-height: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	body {
+		/* */
+		padding-top: 0px;
+		background-color: #ffffff;
+	}
+
+	/* Menu **/
+
+	nav.sd-main-nav .navbar-nav .nav-link {
+		font-size: 1.1rem;
+		line-height: 1.0rem;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+		/* text-shadow: 1px 1px 1px #000; 
+		font-weight: 900; */
+		color: rgba(68,68,68,.5);
+	}
+
+	.navbar {
+		background-color: #ffffff !important;
+	}
+
+	.nav-item {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.navbar-nav>li.active>a, .navbar-nav>li.active>a:hover, .navbar-nav>li.active>a:focus{
+		background-color: #2eb0ee;
+		color: white;
+	}
+
+	/*
+	nav.sd-main-nav .nav-item:hover, nav.sd-main-nav .nav-item:focus, nav.sd-main-nav .nav-item:active {
+		background-color: #2eb0ee;
+	}
+	
+	.navbar-light .navbar-nav .active>.nav-link, 
+	.navbar-light .navbar-nav .nav-link.active, 
+	.navbar-light .navbar-nav .nav-link.show, 
+	.navbar-light .navbar-nav .show>.nav-link {
+		color: rgba(248, 3, 3, 0.9);
+	}
+	*/
+
+	.navbar-light .navbar-nav .active>.nav-item, 
+	.navbar-light .navbar-nav .nav-item.active, 
+	.navbar-light .navbar-nav .nav-item.show, 
+	.navbar-light .navbar-nav .show>.nav-item {
+		color: #2eb0ee;
+	}
+	
+	div.sd-banner {
+		
+		padding-top: 100px;
+		padding-bottom: 80px;
+		background-image: linear-gradient(rgba(5, 5, 5, 0.45),rgba(5, 5, 5, 0.45)), 
+						url(../img/home-page-photo_d1450.jpg);
+	}	
+
+	div.sd-banner-description {
+		font-size: 1.0em;
+		line-height: 1.9em;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+		color: #ffffff; 
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	div.sd-courses-wrapper {
+		font-size: 0.8em;
+		line-height: 1.5em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+	
+	div.sd-courses-wrapper h5 {
+		font-size: 1.0em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+
+	button.btn-primary {
+		background: #2eb0ee;
+		color: #ffffff;
+		font-size: .8em;
+		font-weight: 300;
+		line-height: 3em;
+	}
+
+	div.circle {
+		width: 3em;
+		height: 3em;
+		border-radius: 50%;
+		font-size: .8em;
+		color: #ffffff;
+		line-height: 2.5em;
+		text-align: center;
+		background: #2eb0ee;
+		border: solid 4px #fff;
+		margin-top: -20px;
+		z-index: 10;
+	}
+	
+	div.sd-mary-nelson-message h3  {
+		font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+		font-size: 1.4em;
+		line-height: 1.4em;
+		text-align: center;
+		color: #106e7c;
+	}
+	
+	div.sd-mnmessage-left {
+		width: 250px;
+		float: left;
+	}
+
+	div.sd-mnmessage-right {
+		width: calc(100% - 250px);
+		float: right;
+	}
+
+	/** Footer x100px **/
+	.cp-socials {
+		
+		height: 50px;
+	}
+
+	/***************************************************************************/
+	/*                          instructors                                    */
+	/***************************************************************************/	
+
+	div.sd-left-vertical {
+		border-left: 1px solid #444444;
+	}
+	
+	/***********************************************************
+	* courses
+	***********************************************************/
+	div.sd-courses-banner div {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+	div.sd-courses-wrapper {
+		font-size: 0.9em;
+		line-height: 1.5em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+	
+	div.sd-courses-wrapper h5 {
+		font-size: 1.2em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+
+	button.btn-primary {
+		background: #2eb0ee;
+		color: #ffffff;
+		font-size: 1em;
+		font-weight: 300;
+		line-height: 3em;
+	}
+
+	div.circle {
+		width: 3em;
+		height: 3em;
+		border-radius: 50%;
+		font-size: 1em;
+		color: #ffffff;
+		line-height: 2.5em;
+		text-align: center;
+		background: #2eb0ee;
+		border: solid 4px #fff;
+		margin-top: -20px;
+		z-index: 10;
+	}
+
+	div.sd-mary-nelson-message h3  {
+		font-family: 'Bad Script', cursive, Helvetica, Arial, sans-serif;
+		font-size: 1.8em;
+		line-height: 1.4em;
+		text-align: center;
+		color: #106e7c;
+	}
+	
+	div.sd-mnmessage-left {
+		width: 300px;
+		float: left;
+	}
+
+	div.sd-mnmessage-right {
+		width: calc(100% - 300px);
+		float: right;
+	}
+
+	/***********************************************************
+	* courses
+	***********************************************************/
+	div.sd-courses-banner div {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+	div.sd-courses-wrapper {
+		font-size: 1.1em;
+		line-height: 1.5em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+	
+	div.sd-courses-wrapper h5 {
+		font-size: 1.3em;
+		font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	}
+
+	button.btn-primary {
+		background: #2eb0ee;
+		color: #ffffff;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 3em;
+	}
+	div.circle {
+		width: 3em;
+		height: 3em;
+		border-radius: 50%;
+		font-size: 1.1em;
+		color: #ffffff;
+		line-height: 2.5em;
+		text-align: center;
+		background: #2eb0ee;
+		border: solid 4px #fff;
+		margin-top: -20px;
+		z-index: 10;
+	}
+
+	div.sd-mnmessage-left {
+		width: 350px;
+		float: left;
+	}
+
+	div.sd-mnmessage-right {
+		width: calc(100% - 350px);
+		float: right;
+	}
+
+ }
+
